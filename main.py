@@ -46,12 +46,12 @@ while(running):
     inp_date_end = True
     dates_list = np.arange(2000, 2021)
     while (inp_date_begin):
-        date_begin = input('Date de début: ')
+        date_begin = input('Date de début (2000-2020): ')
         date_begin = int(date_begin)
         if date_begin in dates_list:
             inp_date_begin = False
     while (inp_date_end):
-        date_end = input('Date de fin: ')
+        date_end = input('Date de fin (2000-2020): ')
         date_end = int(date_end)
         if ((date_end >= date_begin) and (date_end in dates_list)):
             inp_date_end = False
