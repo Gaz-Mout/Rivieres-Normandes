@@ -7,3 +7,5 @@ modules requis: requirements.txt
 Selenium configuré pour Firefox
 
 lancer main.py et suivre les indications...
+
+Terence
