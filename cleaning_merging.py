@@ -58,9 +58,6 @@ def clean_temp(download_path):
     df_temp = df_temp.sort_values('DateTime')
     df_temp = df_temp.drop(columns=['DtAnaTemp', 'HrAnaTemp'])
 
-    # formatage des dates
-    df_temp.to_csv(download_path + 'temp_edited.csv', index=False)
-
     # retour du dataframe
     return df_temp
 
